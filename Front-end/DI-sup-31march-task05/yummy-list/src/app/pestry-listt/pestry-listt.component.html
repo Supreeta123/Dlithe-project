@@ -1,0 +1,17 @@
+
+<div class= "cardlist">
+<div  *ngFor="let king of pas">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+        
+          <mat-card-title> {{king.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image class="images"[src]="king.path" alt="Photo of a pastry">
+        <mat-card-actions>
+          <button mat-button >GetDetails</button>
+        </mat-card-actions>
+      </mat-card>
+</div>
+
+</div>

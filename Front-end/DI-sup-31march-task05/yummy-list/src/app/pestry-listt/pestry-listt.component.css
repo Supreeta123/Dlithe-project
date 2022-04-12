@@ -1,0 +1,20 @@
+.example-card {
+    width: 270px;
+    margin: 20px;
+
+  }
+  .cardlist {
+    display: flex;
+    flex-wrap: warp;
+    margin: 0 20px;
+
+  
+  }
+  .example-header-image {
+     background-size: cover;
+  }
+
+  .images {
+    width: 300px;
+    height: 300px;
+  }

@@ -1,0 +1,66 @@
+<form #registrationform="ngForm">
+    <div class="form-group">
+
+        <label for="firstname"> firstname</label>
+        <input type="text"
+          name="firstname"
+           placeholder="firstname" 
+           class="form-control"
+           [(ngModel)]="registrationModel.firstname">
+           
+
+    </div>
+
+    <div class="form-group">
+        <label for="phone"> phone</label>
+        <input type="number"
+          name="phone"
+           placeholder="phone" 
+           class="form-control"
+           [(ngModel)]="registrationModel.phone">
+           </div>
+ <div class="form-group">
+        <label for="email"> email:</label>
+        <input type="text"
+          name="email"
+           placeholder="email" 
+           class="form-control"
+           [(ngModel)]="registrationModel.email">
+    </div>
+    <div class="form-group">
+        <label for="DOB"> DOB</label>
+        <input type="number"
+          name="DOB"
+           placeholder="DOB" 
+           class="form-control"
+           [(ngModel)]="registrationModel.DOB">
+
+        </div>
+        <div class="form-group">
+            <label for="Address"> Adrees</label>
+            <input type="text"
+              name="Address"
+               placeholder="Address" 
+               class="form-control"
+               [(ngModel)]="registrationModel.Address">
+            </div>
+            <div class="form-group">
+                <label for="city"> city</label>
+                <input type="text"
+                  name="city"
+                   placeholder="city" 
+                   class="form-control"
+                   [(ngModel)]="registrationModel.city">
+                  </div> 
+
+                  <div class="form-group">
+                    <label for="pincode"> pincode</label>
+                    <input type="number"
+                      name="pincode"
+                       placeholder="pincode" 
+                       class="form-control"
+                       [(ngModel)]="registrationModel.pincode">
+
+                       </div>
+                       <button>submit</button>
+</form>
