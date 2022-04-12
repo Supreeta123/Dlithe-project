@@ -1,0 +1,33 @@
+
+
+<from #registrationfrom="*ngFrom">
+    <div class="from=group">
+<br>
+        <label for="firstname">firstname</label>
+        <input type="text" name="firstname"  placeholder="firstname" class="from-control" [ngModel]="registrationModel.firstname"/>
+ </div>
+<br>
+    <div class="from-group">
+        <label for="lastname"> last name</label>
+        <input type="text" name="lastname"  placeholder="lastnamename" class="from-control" [ngModel]="registrationModel.lastname"/>
+    </div>
+
+    <div>
+<br>
+        <div class="from-group">
+            <label>gender</label>
+     <label for="female"> female</label>
+            <label for="male">male</label>
+            <input type="radio" name="male" value="male" [ngModel]="registrtationModel"/>
+            <input type="radio" name="female" value="female" [ngModel]="registrationModel"/>
+        </div>
+        <div>
+<br>
+            <label>country</label>
+            <select name="country" class="form-control">
+                <option *ngFor="let country listofCountries" [ngModel]="registrationModel.firstname" ngModel> country </option>
+            </select>
+        </div>
+<br>
+    <button class="ser">Search</button>
+</from>
