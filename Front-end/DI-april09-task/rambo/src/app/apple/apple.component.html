@@ -1,0 +1,17 @@
+<div class="food">
+    <div *ngFor="let apple of Apple">
+        <mat-card class="cards"> 
+             <mat-card-header>
+        <mat-card-title>
+        <p>ItemName:{{apple.ItemName}}</p> 
+       <p>price:{{apple.price}}</p>
+        </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image class="image" [src]="apple.path" alt="cake">
+    
+    
+        <button mat-button >Order</button>
+      
+    </mat-card>
+    </div>
+    </div> 

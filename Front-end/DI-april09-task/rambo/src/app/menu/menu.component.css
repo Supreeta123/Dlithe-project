@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    height: 40px;
+    width: auto;
+}
+.food {
+    width: 300px;
+    margin: 40px;
+}
+
+.images {
+    width: 300px;
+    height: 300px;
+}

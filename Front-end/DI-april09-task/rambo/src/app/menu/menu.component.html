@@ -1,0 +1,17 @@
+<div class="cards">
+<div *ngFor="let menulist of Menulist">
+    <mat-card class="food"> 
+         <mat-card-header>
+    <mat-card-title>
+    <p>ItemName:{{menulist.ItemName}}</p> 
+   <p>Price:{{menulist.price}}</p>
+    </mat-card-title>
+</mat-card-header>
+<img mat-card-image class="image" [src]="menulist.path" alt="cake">
+
+
+    <button mat-button >GetDetails</button>
+  
+</mat-card>
+</div>
+</div> 
